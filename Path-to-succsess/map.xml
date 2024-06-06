@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<House id="1">
+		<Link>16</Link>
+	</House>
+	<House id="2">
+		<Link>38</Link>
+	</House>
+	<House id="3">
+		<Link>50</Link>
+	</House>
+	<House id="4">
+		<Link>74</Link>
+	</House>
+	
+	   
+	<Market id ="5" name ="Расчетный центр">
+		<Product id ="1" name ="Квитанция">200</Product>
+	</Market>
+	<Market id ="6" name ="Университет">
+		<Product id ="2" name ="Диплом университета">5000</Product>
+	</Market>
+	<Market id ="7" name ="Торговый центр">
+		<Product id ="3" name ="Дисконтная карта">600</Product>
+		<Product id ="4" name ="Часы">800</Product>
+		<Product id ="5" name ="Телефон">1000</Product>
+		<Product id ="6" name ="Ванная">1200</Product>
+		<Product id ="7" name ="Холодильник">1400</Product>
+		<Product id ="8" name ="Телевизор">1600</Product>
+		<Product id ="9" name ="Костюм">1800</Product>
+		<Product id ="10" name ="Дипломат">2000</Product>
+		<Product id ="11" name ="Компьютер">2800</Product>
+		<Product id ="12" name ="Автомобиль">3000</Product>
+	</Market>
+	<Market id ="8" name ="Продукты">
+		<Product id ="13" name ="Еда">200</Product>
+	</Market>
+	<Market id ="9" name ="Фондовая биржа">
+		<Product id ="14" name ="Акции банка">2000</Product>
+		<Product id ="15" name ="Акции фабрики">2000</Product>
+		<Product id ="16" name ="Акции завода">1500</Product>
+	</Market>
+	<Market id ="10" name ="Коледж">
+		<Product id ="17" name ="Диплом коледжа">0</Product>
+	</Market>
+	<Market id ="11" name ="Банк">
+		<Product id ="18" name ="Кредит на 1000">-1000</Product>
+		<Product id ="19" name ="Кредит на 2000">-2000</Product>
+		<Product id ="20" name ="Кредит на 5000">-5000</Product>
+	</Market>
+	
+	
+	<Job id ="12" name ="Завод">
+		<pay>600</pay>
+		<pay>800</pay>
+		<pay>1200</pay>
+		<pay>1600</pay>
+		<pay>1800</pay>
+		<pay>2000</pay>
+	</Job>
+	<Job id ="13" name ="Фабрика"> 
+		<pay>600</pay>
+		<pay>800</pay>
+		<pay>1200</pay>
+		<pay>1600</pay>
+		<pay>1800</pay>
+		<pay>2000</pay>
+	</Job>
+	<Job id ="14" name ="Мэрия">
+		<pay>800</pay>
+		<pay>1200</pay>
+		<pay>1800</pay>
+		<pay>2400</pay>
+		<pay>3000</pay>
+		<pay>3600</pay>
+	</Job>
+	
+	
+	<Casino id ="15" name ="Лотерея">
+		<Product id ="3" name ="Дисконтная карта">600</Product>
+		<Product id ="4" name ="Часы">800</Product>
+		<Product id ="5" name ="Телефон">1000</Product>
+		<Product id ="6" name ="Ванная">1200</Product>
+		<Product id ="7" name ="Холодильник">1400</Product>
+		<Product id ="8" name ="Телевизор">1600</Product>
+		<Product id ="9" name ="Костюм">1800</Product>
+		<Product id ="10" name ="Дипломат">2000</Product>
+		<Product id ="11" name ="Компьютер">2800</Product>
+		<Product id ="12" name ="Автомобиль">3000</Product>
+	</Casino>
+
+	<!--Верхнее ребро-->
+	<Node id ="16">
+		<Link>17</Link>
+	</Node>
+	<Node id ="17">
+		<Link>16</Link>
+		<Link>18</Link>
+	</Node>
+	<Node id ="18">
+		<Link>17</Link>
+		<Link>19</Link>
+	</Node>
+	<Node id ="19">
+		<Link>18</Link>
+		<Link>20</Link>
+	</Node>
+	<Node id ="20">
+		<Link>19</Link>
+		<Link>21</Link>
+	</Node>
+	<Node id ="21">
+		<Link>20</Link>
+		<Link>22</Link>
+	</Node>
+	<Node id ="22">
+		<Link>21</Link>
+		<Link>23</Link>
+	</Node>
+	<Node id ="23">
+		<Link>22</Link>
+		<Link>24</Link>
+	</Node>
+	<Node id ="24">
+		<Link>23</Link>
+		<Link>25</Link>
+	</Node>
+	<Node id ="25">
+		<Link>24</Link>
+		<Link>26</Link>
+	</Node>
+	<Node id ="26">
+		<Link>25</Link>
+		<Link>27</Link>
+	</Node>
+	<Node id ="27">
+		<Link>26</Link>
+		<Link>28</Link>
+	</Node>
+	<Node id ="28">
+		<Link>27</Link>
+		<Link>29</Link>
+	</Node>
+	<Node id ="29">
+		<Link>28</Link>
+		<Link>30</Link>
+	</Node>
+	<Node id ="30">
+		<Link>29</Link>
+		<Link>31</Link>
+	</Node>
+	<Node id ="31">
+		<Link>30</Link>
+		<Link>32</Link>
+	</Node>
+	<Node id ="32">
+		<Link>31</Link>
+		<Link>33</Link>
+	</Node>
+	<Node id ="33">
+		<Link>32</Link>
+		<Link>34</Link>
+	</Node>
+	<Node id ="34">
+		<Link>33</Link>
+		<Link>35</Link>
+	</Node>
+	<Node id ="35">
+		<Link>34</Link>
+		<Link>36</Link>
+	</Node>
+	<Node id ="36">
+		<Link>35</Link>
+		<Link>37</Link>
+	</Node>
+	<Node id ="37">
+		<Link>36</Link>
+		<Link>38</Link>
+	</Node>
+	<Node id ="38">
+		<Link>37</Link>
+	</Node>
+
+
+	<!--Правое ребро-->
+	<Node id ="39">
+		<Link>2</Link>
+		<Link>40</Link>
+	</Node>
+	<Node id ="40">
+		<Link>39</Link>
+		<Link>41</Link>
+		<Link>110</Link>
+	</Node>
+	<Node id ="41">
+		<Link>40</Link>
+		<Link>42</Link>
+	</Node>
+	<Node id ="42">
+		<Link>41</Link>
+		<Link>43</Link>
+	</Node>
+	<Node id ="43">
+		<Link>42</Link>
+		<Link>44</Link>
+		<Link>135</Link>
+	</Node>
+	<Node id ="44">
+		<Link>43</Link>
+		<Link>45</Link>
+	</Node>
+	<Node id ="45">
+		<Link>44</Link>
+		<Link>46</Link>
+	</Node>
+	<Node id ="46">
+		<Link>45</Link>
+		<Link>47</Link>
+	</Node>
+	<Node id ="47">
+		<Link>46</Link>
+		<Link>48</Link>
+	</Node>
+	<Node id ="48">
+		<Link>47</Link>
+		<Link>49</Link>
+	    <Link>160</Link>
+	</Node>
+	<Node id ="49">
+		<Link>48</Link>
+		<Link>3</Link>
+	</Node>
+
+	<!--Нижнее ребро-->
+	<Node id ="50">
+		<Link>51</Link>
+	</Node>
+	<Node id ="51">
+		<Link>50</Link>
+		<Link>52</Link>
+	</Node>
+	<Node id ="52">
+		<Link>51</Link>
+		<Link>53</Link>
+	</Node>
+	<Node id ="53">
+		<Link>52</Link>
+		<Link>54</Link>
+	</Node>
+	<Node id ="54">
+		<Link>53</Link>
+		<Link>55</Link>
+	</Node>
+	<Node id ="55">
+		<Link>54</Link>
+		<Link>56</Link>
+	</Node>
+	<Node id ="57">
+		<Link>56</Link>
+		<Link>58</Link>
+	</Node>
+	<Node id ="58">
+		<Link>57</Link>
+		<Link>59</Link>
+	</Node>
+	<Node id ="59">
+		<Link>58</Link>
+		<Link>60</Link>
+	</Node>
+	<Node id ="60">
+		<Link>59</Link>
+		<Link>61</Link>
+	</Node>
+	<Node id ="61">
+		<Link>60</Link>
+		<Link>62</Link>
+	</Node>
+	<Node id ="62">
+		<Link>61</Link>
+		<Link>63</Link>
+	</Node>
+	<Node id ="63">
+		<Link>62</Link>
+		<Link>64</Link>
+	</Node>
+	<Node id ="64">
+		<Link>63</Link>
+		<Link>65</Link>
+	</Node>
+	<Node id ="65">
+		<Link>64</Link>
+		<Link>66</Link>
+	</Node>
+	<Node id ="66">
+		<Link>65</Link>
+		<Link>67</Link>
+	</Node>
+	<Node id ="67">
+		<Link>66</Link>
+		<Link>68</Link>
+	</Node>
+	<Node id ="68">
+		<Link>67</Link>
+		<Link>69</Link>
+	</Node>
+	<Node id ="69">
+		<Link>68</Link>
+		<Link>70</Link>
+	</Node>
+	<Node id ="70">
+		<Link>69</Link>
+		<Link>70</Link>
+	</Node>
+	<Node id ="72">
+		<Link>71</Link>
+		<Link>73</Link>
+	</Node>
+	<Node id ="73">
+		<Link>72</Link>
+		<Link>74</Link>
+	</Node>
+	<Node id ="74">
+		<Link>73</Link>
+	</Node>
+	
+
+	<!--Левое ребро-->
+	<Node id ="75">
+		<Link>4</Link>
+		<Link>76</Link>
+	</Node>
+	<Node id ="76">
+		<Link>75</Link>
+		<Link>77</Link>
+		<Link>136</Link>
+	</Node>
+	<Node id ="77">
+		<Link>76</Link>
+		<Link>78</Link>
+	</Node>
+	<Node id ="78">
+		<Link>77</Link>
+		<Link>79</Link>
+	</Node>
+	<Node id ="79">
+		<Link>78</Link>
+		<Link>80</Link>
+		<Link>111</Link>
+	</Node>
+	<Node id ="80">
+		<Link>79</Link>
+		<Link>81</Link>
+	</Node>
+	<Node id ="81">
+		<Link>80</Link>
+		<Link>82</Link>
+	</Node>
+	<Node id ="82">
+		<Link>81</Link>
+		<Link>83</Link>
+	</Node>
+	<Node id ="83">
+		<Link>82</Link>
+		<Link>84</Link>
+	</Node>
+	<Node id ="84">
+		<Link>83</Link>
+		<Link>85</Link>
+		<Link>86</Link>
+	</Node>
+	<Node id ="85">
+		<Link>84</Link>
+		<Link>1</Link>
+	</Node>
+
+	<!--Верхний проспект-->
+	<Node id ="86">
+		<Link>84</Link>
+		<Link>87</Link>
+	</Node>
+    <Node id ="87">
+		<Link>88</Link>
+		<Link>86</Link>
+	</Node>
+	<Node id ="88">
+		<Link>87</Link>
+		<Link>89</Link>
+	</Node>
+    <Node id ="89">
+		<Link>88</Link>
+		<Link>90</Link>
+	</Node>
+	<Node id ="90">
+		<Link>89</Link>
+		<Link>91</Link>
+	</Node>
+    <Node id ="91">
+		<Link>90</Link>
+		<Link>92</Link>
+	</Node>
+	<Node id ="92">
+		<Link>91</Link>
+		<Link>93</Link>
+	</Node>
+    <Node id ="93">
+		<Link>92</Link>
+		<Link>94</Link>
+	</Node>
+	<Node id ="94">
+		<Link>93</Link>
+		<Link>95</Link>
+	</Node>
+    <Node id ="95">
+		<Link>94</Link>
+		<Link>96</Link>
+	</Node>
+	<Node id ="96">
+		<Link>95</Link>
+		<Link>97</Link>
+	</Node>
+    <Node id ="97">
+		<Link>96</Link>
+		<Link>98</Link>
+	</Node>
+	<Node id ="98">
+		<Link>97</Link>
+		<Link>99</Link>
+	</Node>
+    <Node id ="99">
+		<Link>98</Link>
+		<Link>100</Link>
+	</Node>
+	<Node id ="100">
+		<Link>99</Link>
+		<Link>101</Link>
+	</Node>
+    <Node id ="101">
+		<Link>100</Link>
+		<Link>102</Link>
+	</Node>
+	<Node id ="102">
+		<Link>84</Link>
+		<Link>85</Link>
+	</Node>
+    <Node id ="103">
+		<Link>102</Link>
+		<Link>104</Link>
+	</Node>
+	<Node id ="104">
+		<Link>103</Link>
+		<Link>105</Link>
+	</Node>
+    <Node id ="105">
+		<Link>104</Link>
+		<Link>106</Link>
+	</Node>
+	<Node id ="106">
+		<Link>105</Link>
+		<Link>107</Link>
+	</Node>
+    <Node id ="107">
+		<Link>106</Link>
+		<Link>108</Link>
+	</Node>
+	<Node id ="108">
+		<Link>107</Link>
+		<Link>109</Link>
+	</Node>
+    <Node id ="109">
+		<Link>108</Link>
+		<Link>110</Link>
+	</Node>
+	<Node id ="110">
+		<Link>109</Link>
+		<Link>40</Link>
+	</Node>
+
+	<!--Главный проспект-->
+	<Node id ="111">
+		<Link>79</Link>
+		<Link>112</Link>
+	</Node>
+    <Node id ="112">
+		<Link>111</Link>
+		<Link>113</Link>
+	</Node>
+	<Node id ="113">
+		<Link>112</Link>
+		<Link>114</Link>
+	</Node>
+    <Node id ="114">
+		<Link>113</Link>
+		<Link>115</Link>
+	</Node>
+	<Node id ="115">
+		<Link>114</Link>
+		<Link>116</Link>
+	</Node>
+    <Node id ="116">
+		<Link>115</Link>
+		<Link>117</Link>
+	</Node>
+	<Node id ="117">
+		<Link>116</Link>
+		<Link>118</Link>
+	</Node>
+    <Node id ="118">
+		<Link>117</Link>
+		<Link>119</Link>
+	</Node>
+	<Node id ="119">
+		<Link>118</Link>
+		<Link>120</Link>
+	</Node>
+    <Node id ="120">
+		<Link>119</Link>
+		<Link>121</Link>
+	</Node>
+	<Node id ="121">
+		<Link>120</Link>
+		<Link>122</Link>
+	</Node>
+    <Node id ="122">
+		<Link>121</Link>
+		<Link>123</Link>
+	</Node>
+	<Node id ="123">
+		<Link>122</Link>
+		<Link>124</Link>
+	</Node>
+    <Node id ="124">
+		<Link>123</Link>
+		<Link>125</Link>
+	</Node>
+	<Node id ="125">
+		<Link>124</Link>
+		<Link>126</Link>
+	</Node>
+    <Node id ="126">
+		<Link>125</Link>
+		<Link>127</Link>
+	</Node>
+	<Node id ="127">
+		<Link>126</Link>
+		<Link>128</Link>
+	</Node>
+    <Node id ="128">
+		<Link>127</Link>
+		<Link>129</Link>
+	</Node>
+	<Node id ="129">
+		<Link>128</Link>
+		<Link>130</Link>
+	</Node>
+    <Node id ="130">
+		<Link>129</Link>
+		<Link>131</Link>
+	</Node>
+	<Node id ="131">
+		<Link>130</Link>
+		<Link>132</Link>
+	</Node>
+    <Node id ="132">
+		<Link>131</Link>
+		<Link>133</Link>
+	</Node>
+	<Node id ="133">
+		<Link>132</Link>
+		<Link>134</Link>
+	</Node>
+    <Node id ="134">
+		<Link>133</Link>
+		<Link>135</Link>
+	</Node>
+	<Node id ="135">
+		<Link>134</Link>
+		<Link>43</Link>
+	</Node>
+
+	<!--Нижний проспект-->
+	<Node id ="136">
+		<Link>76</Link>
+		<Link>137</Link>
+	</Node>
+    <Node id ="137">
+		<Link>136</Link>
+		<Link>138</Link>
+	</Node>
+	<Node id ="138">
+		<Link>139</Link>
+		<Link>140</Link>
+	</Node>
+    <Node id ="139">
+		<Link>138</Link>
+		<Link>140</Link>
+	</Node>
+	<Node id ="140">
+		<Link>139</Link>
+		<Link>141</Link>
+	</Node>
+    <Node id ="141">
+		<Link>140</Link>
+		<Link>142</Link>
+	</Node>
+	<Node id ="142">
+		<Link>141</Link>
+		<Link>143</Link>
+	</Node>
+    <Node id ="143">
+		<Link>142</Link>
+		<Link>144</Link>
+	</Node>
+	<Node id ="144">
+		<Link>143</Link>
+		<Link>145</Link>
+	</Node>
+    <Node id ="145">
+		<Link>144</Link>
+		<Link>146</Link>
+	</Node>
+	<Node id ="146">
+		<Link>145</Link>
+		<Link>147</Link>
+	</Node>
+    <Node id ="147">
+		<Link>146</Link>
+		<Link>148</Link>
+	</Node>
+	<Node id ="148">
+		<Link>147</Link>
+		<Link>149</Link>
+	</Node>
+    <Node id ="149">
+		<Link>148</Link>
+		<Link>150</Link>
+	</Node>
+	<Node id ="150">
+		<Link>149</Link>
+		<Link>151</Link>
+	</Node>
+    <Node id ="151">
+		<Link>150</Link>
+		<Link>152</Link>
+	</Node>
+	<Node id ="152">
+		<Link>151</Link>
+		<Link>153</Link>
+	</Node>
+    <Node id ="153">
+		<Link>154</Link>
+		<Link>155</Link>
+	</Node>
+	<Node id ="154">
+		<Link>155</Link>
+		<Link>156</Link>
+	</Node>
+    <Node id ="155">
+		<Link>154</Link>
+		<Link>156</Link>
+	</Node>
+	<Node id ="156">
+		<Link>155</Link>
+		<Link>157</Link>
+	</Node>
+    <Node id ="157">
+		<Link>156</Link>
+		<Link>158</Link>
+	</Node>
+	<Node id ="158">
+		<Link>157</Link>
+		<Link>159</Link>
+	</Node>
+    <Node id ="159">
+		<Link>160</Link>
+		<Link>135</Link>
+	</Node>
+	<Node id ="160">
+		<Link>159</Link>
+		<Link>48</Link>
+	</Node>
+</Root>
